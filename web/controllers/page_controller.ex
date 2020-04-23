@@ -4,8 +4,4 @@ defmodule Discuss.PageController do
   def index(conn, _params) do
     render conn, "index.html"
   end
-
-  def gaia(conn, _params) do
-    render conn, "gaia.html"
-  end
 end
